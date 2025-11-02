@@ -37,4 +37,4 @@ composer install
 Create a new database `loan_app` and import the sql file given.
 
 php spark serve
-Open http://localhost:8080/loans
+Open http://localhost:8080
