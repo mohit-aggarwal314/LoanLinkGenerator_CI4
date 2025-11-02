@@ -27,3 +27,14 @@ A small CodeIgniter 4 project that manages loan borrowers and generates unique p
 ## ⚙️ Installation Steps
 
 ### 1. Clone or Extract
+git clone https://github.com/mohit-aggarwal314/LoanLinkGenerator_CI4.git
+cd LoanLinkGenerator_CI4
+
+### 2. Install Dependencies
+composer install
+
+### 3. Import Database
+Create a new database `loan_app` and import the sql file given.
+
+php spark serve
+Open http://localhost:8080/loans
